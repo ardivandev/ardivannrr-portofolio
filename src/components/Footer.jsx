@@ -23,13 +23,9 @@ function Logo() {
   return (
     <div>
       {darkMode ? (
-        <img
-          src="/src/assets/logo/white-logo.svg"
-          alt="Logo"
-          className="bg-secondary-dark rounded-xl"
-        />
+        <img src="/logo/white-logo.svg" alt="Logo" className="bg-secondary-dark rounded-xl" />
       ) : (
-        <img src="/src/assets/logo/dark-logo.svg" alt="Logo" className="bg-gray-100 rounded-xl" />
+        <img src="/logo/dark-logo.svg" alt="Logo" className="bg-gray-100 rounded-xl" />
       )}
     </div>
   );

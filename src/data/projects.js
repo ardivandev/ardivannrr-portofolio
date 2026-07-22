@@ -1,6 +1,6 @@
 export const projects = [
   {
-    srcImage: '/src/assets/images/projects/project1.png',
+    srcImage: '/projects/project1.png',
     title: 'Nexcent Landing Page',
     description:
       'A responsive Nexcent landing page built with HTML, Tailwind CSS v4, JavaScript, and AOS animations. Inspired by the original Figma design by Muntasir Billah.',
@@ -9,7 +9,7 @@ export const projects = [
     tech: ['Html', 'Tailwind CSS', 'JavaScript', 'AOS animations'],
   },
   {
-    srcImage: '/src/assets/images/projects/project2.png',
+    srcImage: '/projects/project2.png',
     title: 'KopiTime',
     description:
       'A website with a coffee shop theme, created using html, css, and javascript. inspiration from Web Programming Unpas (Sandhika Galih)',
