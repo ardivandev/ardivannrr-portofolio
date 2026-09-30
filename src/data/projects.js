@@ -79,4 +79,13 @@ export const projects = [
     hrefGithub: 'https://github.com/ardivandev/NextCent-Landing-Page',
     tech: ['Html', 'Tailwind CSS v4', 'JavaScript', 'AOS'],
   },
+  {
+    srcImage: '/projects/project-10.png',
+    title: 'Website Portofolio',
+    description:
+      'Personal portfolio website to showcase my projects, skills, and certificates as a web developer.',
+    href: 'https://ardivannrr-portofolio.vercel.app/',
+    hrefGithub: 'https://github.com/ardivandev/ardivannrr-portofolio',
+    tech: ['React.js', 'Tailwind CSS v4', 'Framer Motion', 'React Icons'],
+  },
 ];
