@@ -119,12 +119,13 @@ export default function About() {
             variants={fadeUp}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            I'm Ardivan Nur Raihan Rahman, a Front-End Developer and Quality Assurance Tester with
-            an educational background from SMKN 13 Bandung. I have a strong interest in building
-            responsive, user-friendly web interfaces, and ensuring every feature works as intended
-            through both manual and automated testing. This dual role has trained me to think from
-            two perspectives at once: as a builder of features, and as a tester looking for gaps
-            before a product reaches its users.
+            Hi, I'm Ardivan. A Software Engineering graduate of SMK Negeri 13 Bandung focused on
+            front-end web development with HTML, CSS, JavaScript (ES6+), React.js, and Tailwind CSS.
+            I have built a variety of responsive web projects, including a React portfolio website
+            and landing pages implemented from Figma designs, all available in the Projects section
+            and on GitHub. My six-month internship as a QA Tester taught me to test my own work and
+            communicate effectively with developers. I'm looking for a Junior Front-End Developer
+            position where I can contribute and grow with an engineering team.
           </motion.p>
         </div>
 

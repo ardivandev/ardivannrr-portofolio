@@ -58,8 +58,7 @@ export default function Projects() {
           variants={fadeUp}
           transition={{ duration: 0.6, delay: 0.1 }}
         >
-          This is a collection of projects I've worked on, along with the tools used in each one -
-          reflecting my skills, experience, and growth as a developer over time.
+          A selection of projects I've built, along with the technologies used in each one.
         </motion.p>
 
         <form onSubmit={handleSearch} className="mx-auto flex gap-5">

@@ -22,7 +22,7 @@ export default function FeatureProjects() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="md:text-2xl text-xl text-center font-poppins font-bold"
+          className="md:text-3xl text-xl text-center font-poppins font-bold"
         >
           Projects
         </motion.h2>
@@ -33,7 +33,7 @@ export default function FeatureProjects() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-center text-sm md:text-base text-gray-500 mt-2 mb-16"
         >
-          Following are some of the projects i have built
+          Some of the projects I've built
         </motion.p>
 
         <motion.div
@@ -56,9 +56,9 @@ export default function FeatureProjects() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, amount: 0.2 }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5"
         >
-          {projects.slice(0, 3).map((project, index) => (
+          {projects.slice(0, 4).map((project, index) => (
             <CardProject
               key={index}
               srcImage={project.srcImage}

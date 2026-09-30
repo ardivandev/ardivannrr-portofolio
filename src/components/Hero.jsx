@@ -27,7 +27,7 @@ function HeroContent() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        Front-End Developer | Quality Assurance Tester
+        Front-End Developer
       </motion.p>
       <motion.p
         className="text-gray-500 text-sm md:text-md"
@@ -35,8 +35,8 @@ function HeroContent() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
-        I am a passionate front-end developer and quality assurance tester with a strong focus on
-        creating efficient and user-friendly web applications.
+        I build responsive, user-friendly web interfaces with React and Tailwind CSS, and I test my
+        own work like a QA.
       </motion.p>
       <motion.div
         className="flex gap-5 mt-5"
@@ -50,15 +50,6 @@ function HeroContent() {
         >
           Learn More
         </NavLink>
-        <a
-          href=""
-          className="border-2 border-gray-500 py-2 px-3 rounded text-sm md:text-md font-semibold hover:bg-gray-500 hover:text-white"
-          target="_blank"
-          rel="noopener noreferrer"
-          download
-        >
-          Download CV
-        </a>
       </motion.div>
     </div>
   );
@@ -66,7 +57,7 @@ function HeroContent() {
 
 function HeroImage() {
   return (
-    <div className="w-full md:w-1/2 p-5 order-1 md:order-2 flex justify-center items-center mt-8 md:mt-0">
+    <div className="w-full md:w-1/2 p-5 order-1 md:order-2 flex justify-end items-center mt-8 md:mt-0 ">
       <motion.img
         src={ardivanImg}
         alt="Ardivan Nur Raihan Rahman"
@@ -84,8 +75,8 @@ function HeroImage() {
 
 function Hero() {
   return (
-    <section className=" py-20 md:mt-10 dark:bg-dark dark:text-white">
-      <div className="container flex flex-col items-center justify-center md:flex-row p-5 gap-1 md:gap-5 md:items-center md:justify-between ">
+    <section className="py-20 md:mt-10 dark:bg-dark dark:text-white">
+      <div className="container h-full max-w-7xl flex flex-col items-center justify-center md:flex-row p-5 gap-1 md:gap-5 md:items-center md:justify-between ">
         <HeroContent />
         <HeroImage />
       </div>

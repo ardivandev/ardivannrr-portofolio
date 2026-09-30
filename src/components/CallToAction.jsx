@@ -18,7 +18,7 @@ export default function CallToAction() {
           transition={{ duration: 0.5, delay: 0.15 }}
           className="font-bold text-2xl text-center md:text-3xl font-poppins mb-2"
         >
-          Have an idea for a project?
+          Have a project in mind?
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -27,7 +27,7 @@ export default function CallToAction() {
           transition={{ duration: 0.5, delay: 0.25 }}
           className="text-center text-sm md:text-base mb-5"
         >
-          Let's discuss it and bring it to life together!
+          I'm open to job opportunities and freelance projects. Let's talk about how I can help.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

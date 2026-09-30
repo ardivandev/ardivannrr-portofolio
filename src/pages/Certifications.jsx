@@ -30,6 +30,17 @@ export default function Certifications() {
           My Certificates
         </motion.h1>
 
+        <motion.p
+          className="text-gray-500 dark:text-gray-300 max-w-2xl text-justify mb-10"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.3 }}
+          variants={fadeUp}
+          transition={{ duration: 0.6, delay: 0.1 }}
+        >
+          Courses and certifications I've completed
+        </motion.p>
+
         <motion.div
           className="mx-auto py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"
           initial="hidden"

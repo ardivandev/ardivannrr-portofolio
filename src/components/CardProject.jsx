@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 const cardVariants = {
   hidden: { opacity: 0, y: 40, scale: 0.95 },
@@ -24,20 +25,25 @@ export default function CardProject({ srcImage, title, description, href, hrefGi
         <h3 className="md:text-xl text-lg font-semibold">{title}</h3>
         <p className="text-xs md:text-sm text-gray-600 dark:text-gray-300 py-2">{description}</p>
         <div>
-          <p className="text-xs md:text-sm text-gray-600 dark:text-gray-300 py-1">
+          <p className="text-xs md:text-sm flex items-center text-gray-600 dark:text-gray-300 py-1">
             Demo Live:
             <a
               href={href}
-              className="text-blue-400 hover:underline ml-2"
+              className="text-blue-600 hover:underline ml-2 flex items-center gap-1"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Website
+              <FaExternalLinkAlt /> Website
             </a>
           </p>
-          <p className="text-xs md:text-sm text-gray-600 dark:text-gray-300">
+          <p className="text-xs md:text-sm text-gray-600 dark:text-gray-300 flex items-center">
             Link Github:
-            <a href={hrefGithub} className="text-blue-400 hover:underline ml-2" target="_blank">
+            <a
+              href={hrefGithub}
+              className="text-blue-600 hover:underline ml-2  flex items-center gap-1"
+              target="_blank"
+            >
+              <FaExternalLinkAlt />
               Github
             </a>
           </p>

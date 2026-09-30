@@ -36,8 +36,8 @@ export default function Contact() {
           variants={fadeUp}
           transition={{ duration: 0.6, delay: 0.1 }}
         >
-          Have a question or want to collaborate? Feel free to reach out through any of the contact
-          options below.
+          I'm open to job opportunities and freelance projects. Reach out through any of the options
+          below.
         </motion.p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
